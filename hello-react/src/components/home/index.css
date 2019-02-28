@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    -height: 100%;
+    position: relative;
+    background: #f2f2f2;
+}
+.leftNav-content{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main-content{
+    width: 100%;
+    padding-left: 310px;
+    
+}
+.page-content{
+    background: #fff;
+    padding-top:130px;
+}
+.header-content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 310px;
+    z-index: 9;
+}
